@@ -1,7 +1,7 @@
 name: GLaDOS定时签到
 on:
   schedule: # Actions自动运行，自动签到时间，cron表达式，不会的看README
-    - cron: "39 04 * * *" # 分 时 日 月 星期，请修改为其它随机时间，大概有8h+的延迟
+    - cron: "30 02 * * *" # 分 时 日 月 星期，请修改为其它随机时间，大概有8h+的延迟
     
   push:
     branches: ["main"]
