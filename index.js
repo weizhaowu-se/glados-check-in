@@ -9,7 +9,7 @@ async function checkin() {
       method: 'POST',
       url: 'https://glados.rocks/api/user/checkin',
       data: {
-        token: 'glados.network',
+        token: 'glados.one',
       },
       headers: {
         cookie: cookie,
